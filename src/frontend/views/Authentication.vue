@@ -39,7 +39,7 @@ export default {
     return {
       authConfig: {
         signUpConfig: {
-          defaultCountryCode: "44",
+          defaultCountryCode: "1",
           signUpFields: [
             {
               label: "First name",
@@ -62,24 +62,30 @@ export default {
 </script>
 
 <style lang="stylus">
-@import '~variables'
+@import '~variables';
 
-:root
+:root {
   // Not a safe way to override as this can change at build
   // https://github.com/aws-amplify/amplify-js/issues/2471
-  --amazonOrange $secondary !important
-  --color-primary $primary !important
+  --amazonOrange: $secondary !important;
+  --color-primary: $primary !important;
+}
 
-.authenticator__form
-  @media only screen and (min-device-width: 700px)
-    margin auto
-    padding 15vmin
+.authenticator__form {
+  @media only screen and (min-device-width: 700px) {
+    margin: auto;
+    padding: 15vmin;
+  }
 
-  > *
-    font-family 'Raleway', 'Open Sans', sans-serif
+  > * {
+    font-family: 'Raleway', 'Open Sans', sans-serif;
+  }
 
-  @media only screen and (min-device-width: 300px) and (max-device-width: 700px)
-    > div
-      min-width 80vw
-      padding 10vmin
+  @media only screen and (min-device-width: 300px) and (max-device-width: 700px) {
+    > div {
+      min-width: 80vw;
+      padding: 10vmin;
+    }
+  }
+}
 </style>

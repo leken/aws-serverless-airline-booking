@@ -16,5 +16,48 @@
                 "awsserverlessairline44ea6421": {}
             }
         }
+    },
+    "kendev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-awsserverlessairline-kendev-140141-authRole",
+            "UnauthRoleArn": "arn:aws:iam::464406262201:role/amplify-awsserverlessairline-kendev-140141-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::464406262201:role/amplify-awsserverlessairline-kendev-140141-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-awsserverlessairline-kendev-140141-deployment",
+            "UnauthRoleName": "amplify-awsserverlessairline-kendev-140141-unauthRole",
+            "StackName": "amplify-awsserverlessairline-kendev-140141",
+            "StackId": "arn:aws:cloudformation:us-east-2:464406262201:stack/amplify-awsserverlessairline-kendev-140141/e8da2ab0-c532-11ea-a435-0a76b6c12f42",
+            "AmplifyAppId": "d3n777zpg86uxn"
+        },
+        "categories": {
+            "auth": {
+                "awsserverlessairline44ea6421": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d3n777zpg86uxn",
+                    "type": "cicd"
+                }
+            }
+        }
+    },
+    "develop": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-awsserverlessairline-develop-155416-authRole",
+            "UnauthRoleArn": "arn:aws:iam::464406262201:role/amplify-awsserverlessairline-develop-155416-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::464406262201:role/amplify-awsserverlessairline-develop-155416-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-awsserverlessairline-develop-155416-deployment",
+            "UnauthRoleName": "amplify-awsserverlessairline-develop-155416-unauthRole",
+            "StackName": "amplify-awsserverlessairline-develop-155416",
+            "StackId": "arn:aws:cloudformation:us-east-2:464406262201:stack/amplify-awsserverlessairline-develop-155416/a35f0bd0-c542-11ea-b300-0af659736e02",
+            "AmplifyAppId": "d2q0bx0gz7m3uf"
+        },
+        "categories": {
+            "auth": {
+                "awsserverlessairline44ea6421": {}
+            },
+            "hosting": {}
+        }
     }
 }

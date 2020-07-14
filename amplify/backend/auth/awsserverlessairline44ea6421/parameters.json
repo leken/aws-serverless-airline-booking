@@ -23,10 +23,14 @@
     "userpoolClientGenerateSecret": true,
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [
-        "email"
+        "email",
+        "custom:luggage_preference",
+        "custom:meal_preference"
     ],
     "userpoolClientReadAttributes": [
-        "email"
+        "email",
+        "custom:luggage_preference",
+        "custom:meal_preference"
     ],
     "userpoolClientLambdaRole": "awsser44ea6421_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
